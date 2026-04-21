@@ -68,16 +68,6 @@
         };
     };
 
-    layer_rgb {
-        compatible = "zmk,layer-rgb";
-
-        l3_led {
-            layers = <3>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,50)>; // Red
-            key-positions = <0>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 

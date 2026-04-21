@@ -115,12 +115,12 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans           &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans           &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans                   &trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &rgb_ug RGB_TOG  &trans              &trans  &trans  &trans  &trans
+&trans           &rgb_ug RGB_COLOR_HSB(0,100,30)    &rgb_ug RGB_COLOR_HSB(30,100,30)   &rgb_ug RGB_COLOR_HSB(60,100,30)  &rgb_ug RGB_COLOR_HSB(120,100,30)  &rgb_ug RGB_COLOR_HSB(180,100,30)  &rgb_ug RGB_COLOR_HSB(210,100,30)  &rgb_ug RGB_COLOR_HSB(240,100,30)  &rgb_ug RGB_COLOR_HSB(270,100,30)  &rgb_ug RGB_COLOR_HSB(300,100,30)  &rgb_ug RGB_COLOR_HSB(330,100,30)  &trans  &trans  &trans  &trans          &trans
+&trans           &trans                             &trans                             &trans                            &trans                             &trans                                                &trans                             &trans                             &trans                             &trans                             &trans                             &trans  &trans  &trans  &trans  &trans
+&trans           &trans                             &trans                             &trans                            &trans                             &trans                                                &trans                             &trans                             &trans                             &trans                             &trans                             &trans  &trans  &trans          &trans
+&trans           &trans                             &trans                             &trans                            &trans                             &trans                                                &trans                             &trans                             &trans                             &trans                             &trans                             &trans  &trans  &trans          &trans
+&trans           &trans                             &trans                             &trans                                                               &trans                                                                                   &trans                             &trans                             &trans                             &trans                             &trans  &trans  &trans          &trans
+&rgb_ug RGB_BRI  &rgb_ug RGB_HUD                    &rgb_ug RGB_HUI                    &rgb_ug RGB_BRD                   &rgb_ug RGB_TOG                    &trans                                                &trans                             &trans                             &trans                             &trans
             >;
 
             label = "3";

@@ -65,7 +65,6 @@
         rgb {
             bindings = <&tog 3>;
             key-positions = <65 69>;
-            timeout-ms = <60000>;
         };
     };
 

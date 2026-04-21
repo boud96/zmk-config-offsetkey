@@ -82,9 +82,9 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB2'
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '1':
   - {t: '`', s: '~'}

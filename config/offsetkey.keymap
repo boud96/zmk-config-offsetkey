@@ -52,6 +52,18 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <180>;
         };
+        l1_rgb: layer_1_with_rgb {
+            compatible = "zmk,behavior-macro-pause-for-release";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &mo 1>
+                , <&macro_tap &rgb_ug RGB_OFF &rgb_ug RGB_COLOR_HSB(0,100,50)> // Set color to Red
+                , <&macro_tap &rgb_ug RGB_SAI &rgb_ug RGB_SAI>                // Force saturation
+                , <&macro_tap &rgb_ug RGB_SKIN 0>                             // <--- Targets LED Index 0
+                , <&macro_pause_for_release>
+                = <&macro_release &mo 1>
+                , <&macro_tap &rgb_ug RGB_OFF>;                               // Kill lights on release
+        };
     };
 
     combos {

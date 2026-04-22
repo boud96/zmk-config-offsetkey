@@ -20,10 +20,8 @@
 
 &mmv_input_listener {
     input-processors = <&zip_xy_scaler 2 1>;
-
-    // This block triggers only when Layer 1 is active
-    scroll_on_layer_1 {
-        layers = <1>;
+    trackball_scroller_rule {
+        layers = <1 2>;
         input-processors =
             <&zip_xy_transform 3>,
             <&zip_xy_scaler 1 10>,

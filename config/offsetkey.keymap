@@ -21,7 +21,7 @@
 &mmv_input_listener {
     input-processors = <&zip_xy_scaler 2 1>;
     trackball_scroller_rule {
-        layers = <1 2>;
+        layers = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20>;
         input-processors =
             <&zip_xy_transform 3>,
             <&zip_xy_scaler 1 10>,

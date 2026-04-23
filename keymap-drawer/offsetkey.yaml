@@ -249,8 +249,8 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '&mmv (MOVE_X(-200))'
+  - '&mmv MOVE_X(200)'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&mkp MB1'
   - '&mkp MB2'

@@ -248,10 +248,10 @@ layers:
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_Y(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

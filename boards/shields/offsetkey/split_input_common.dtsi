@@ -23,8 +23,8 @@
     device = <&trackball_split>;
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>;
     scroll {
-      layers = <LOWER MOUSE_KEYS MOUSE_TP>;
-      input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 1>, <&zip_xy_to_scroll_mapper>;
+      layers = <LOWER MOUSE_KEYS>;
+      input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 60>, <&zip_xy_to_scroll_mapper>;
     };
   };
 

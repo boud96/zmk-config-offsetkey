@@ -107,7 +107,7 @@ layers:
   - '&mkp MB1'
   - $$mdi:mouse-scroll-wheel$$
   - '&mkp MB2'
-  - {t: R, h: '4'}
+  - '4'
   - {t: '$$mdi:transfer$$', type: trans}
   - '4'
   - '5'

@@ -6,6 +6,7 @@
 #define MOUSE_KEYS 2
 #define MOUSE_TP 3
 #define MOUSE_TP_SET 4
+#define TRACKBALL_SCROLL 5
 
 / {
   split_inputs {
@@ -23,12 +24,12 @@
     device = <&trackball_split>;
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>;
     scroll {
-      layers = <MOUSE_KEYS>;
+      layers = <MOUSE_KEYS TRACKBALL_SCROLL>;
       input-processors = <&zip_xy_transform ( INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP)>, <&zip_xy_scaler 1 60>, <&zip_xy_to_scroll_mapper>;
     };
     fast_cursor {
       layers = <MOUSE_TP_SET>;
-      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&zip_xy_scaler 2 1>;
+      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_XY_SWAP )>, <&zip_xy_scaler 3 1>;
     };
   };
 

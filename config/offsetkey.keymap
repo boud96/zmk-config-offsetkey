@@ -110,7 +110,7 @@
 &kp BACKSPACE  &mkp MB1    &mkp MB2       &trans  &trans  &trans              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans   &trans   &trans   &trans  &kp SCROLLLOCK               &trans
 &trans         &mkp MB1    &mkp MB2       &trans  &trans  &trans              &trans        &trans        &trans        &trans   &trans   &trans   &trans  &kp END                      &trans
 &trans         &trans      &trans         &trans          &trans                            &trans        &trans        &trans   &trans   &trans   &trans  &trans                       &trans
-&trans         &kp K_BACK  &kp K_FORWARD  &trans  &trans  &trans              &trans        &kp C_PLAY_PAUSE        &trans        &trans
+&trans         &kp K_BACK  &kp K_FORWARD  &trans  &kp C_PLAY_PAUSE  &trans              &trans        &trans        &trans        &trans
             >;
 
             label = "1";
